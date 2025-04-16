@@ -107,8 +107,6 @@
   <project path="system/server_configurable_flags" name="AOSPA/android_system_server_configurable_flags" remote="aospa" />
   <remove-project name="platform/system/update_engine" />
   <project path="system/update_engine" name="AOSPA/android_system_update_engine" remote="aospa" />
-  <remove-project name="platform/system/security" />
-  <project path="system/security" name="AOSPA/android_system_security" remote="aospa" />
 
   <!-- Tests -->
   <remove-project name="platform/platform_testing" />
