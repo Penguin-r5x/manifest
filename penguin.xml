@@ -73,7 +73,7 @@
   <project path="manifest" name="manifest" remote="penguin-xe" />
 
   <!-- OTA -->
-  <project path="OTA" name="OTA" remote="penguin" />
+  <project path="OTA" name="OTA" remote="penguin-xe" />
 
   <!-- Packages -->
   <remove-project name="platform/packages/apps/DocumentsUI" />
@@ -87,7 +87,7 @@
   <project path="packages/apps/Paranoid/SystemUI" name="android_packages_apps_Paranoid_SystemUI" remote="penguin-xe" />
   <remove-project name="platform/packages/apps/Settings" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="penguin-xe" />
-  <project path="packages/apps/Updater" name="android_packages_apps_Updater" remote="penguin" />
+  <project path="packages/apps/Updater" name="android_packages_apps_Updater" remote="penguin-xe" />
   <remove-project name="platform/packages/modules/Bluetooth" />
   <project path="packages/modules/Bluetooth" name="android_packages_modules_Bluetooth" remote="penguin-xe" />
   <remove-project name="platform/packages/modules/Connectivity" />
