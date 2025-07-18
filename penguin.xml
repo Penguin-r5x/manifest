@@ -42,6 +42,8 @@
   <project path="external/arm-optimized-routines" name="android_external_arm-optimized-routines" remote="penguin-xe" />
   <remove-project name="platform/external/boringssl" />
   <project path="external/boringssl" name="android_external_boringssl" remote="penguin-xe" />
+  <remove-project name="platform/external/bouncycastle" />
+  <project path="external/bouncycastle" name="android_external_bouncycastle" remote="penguin-xe" />
   <remove-project name="platform/external/giflib" />
   <project path="external/giflib" name="android_external_giflib" remote="penguin-xe" />
   <remove-project name="platform/external/skia" />
