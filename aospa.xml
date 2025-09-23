@@ -8,10 +8,6 @@
     <linkfile src="bazel.BUILD" dest="BUILD" />
   </project>
 
-  <!-- Bootable -->
-  <remove-project name="platform/bootable/recovery" />
-  <project path="bootable/recovery" name="AOSPA/android_bootable_recovery" remote="aospa" />
-
   <!-- Device -->
   <remove-project name="device/qcom/sepolicy_vndr" />
   <project path="device/qcom/sepolicy_vndr" name="AOSPA/android_device_qcom_sepolicy_vndr" remote="aospa" />
