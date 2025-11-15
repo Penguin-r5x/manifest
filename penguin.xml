@@ -35,7 +35,7 @@
 
   <!-- Device -->
   <remove-project name="device/qcom/common" />
-  <project path="device/qcom/common" name="android_device_qcom_common" remote="penguin-xe" >
+  <project path="device/qcom/common" name="android_device_qcom_common" remote="Penguin-r5x" >
     <linkfile dest="vendor/qcom/build/tasks/generate_extra_images.mk" src="generate_extra_images.mk"/>
   </project>
   <remove-project name="device/qcom/qssi" />
@@ -69,14 +69,14 @@
   <remove-project name="platform/frameworks/native" />
   <project path="frameworks/native" name="android_frameworks_native" remote="penguin-xe" />
   <remove-project name="platform/frameworks/opt/telephony" />
-  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="penguin-xe" />
+  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="Penguin-r5x" />
 
   <!-- Hardware -->
   <remove-project name="platform/hardware/interfaces" />
   <project path="hardware/interfaces" name="android_hardware_interfaces" remote="penguin-xe" />
 
   <!-- Manifest -->
-  <project path="manifest" name="manifest" remote="penguin-xe" />
+  <project path="manifest" name="manifest" remote="Penguin-r5x" />
 
   <!-- OTA -->
   <project path="OTA" name="OTA" remote="penguin-xe" />
@@ -130,7 +130,7 @@
   <project path="toolchain/pgo-profiles" name="android_toolchain_pgo-profiles" remote="penguin-xe" />
 
   <!-- Vendor -->
-  <project path="vendor/aospa" name="android_vendor_aospa" remote="penguin-xe" >
+  <project path="vendor/aospa" name="android_vendor_aospa" remote="Penguin-r5x" >
     <linkfile src="build.sh" dest="rom-build.sh" />
     <linkfile src="json.sh" dest="generate-json.sh" />
   </project>
