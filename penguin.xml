@@ -41,6 +41,9 @@
   <remove-project name="device/qcom/qssi" />
   <project path="device/qcom/qssi" name="android_device_qcom_qssi" remote="penguin-xe" />
 
+  <!-- Dolby -->
+   <project path="hardware/dolby" name="android_hardware_dolby" remote="Penguin-r5x" />
+
   <!-- External -->
   <remove-project name="platform/external/arm-optimized-routines" />
   <project path="external/arm-optimized-routines" name="android_external_arm-optimized-routines" remote="penguin-xe" />
